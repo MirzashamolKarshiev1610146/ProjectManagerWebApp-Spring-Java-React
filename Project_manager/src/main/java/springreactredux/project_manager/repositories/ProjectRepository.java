@@ -1,0 +1,10 @@
+package springreactredux.project_manager.repositories;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+import springreactredux.project_manager.domain.Project;
+
+@Repository
+public interface ProjectRepository extends CrudRepository<Project,Long> {
+
+}
