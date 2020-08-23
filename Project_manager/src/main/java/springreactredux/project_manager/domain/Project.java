@@ -28,7 +28,7 @@ public class Project {
     @Valid
     @NotNull (message = "Project identifier is required")
     @Size(min = 4, max = 5, message = "Please use 4 to 5 characters")
-    @Column(updatable = true,unique= true)
+    @Column(updatable = true,unique = true)
     private String projectIdentifier;
     @Valid
     @NotNull (message = "Project name is required")
